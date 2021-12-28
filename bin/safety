@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo ""
+echo -e "\033[33m Running package vulnerability checks"
+echo -e "\033[0m"
+
+poetry run safety check --full-report

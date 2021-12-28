@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo ""
+echo -e "\033[33m Checking type annotations with mypy"
+echo -e "\033[0m"
+
+poetry run mypy src/ flask_app.py --check-untyped-defs --show-traceback --python-version 3.8
