@@ -1,7 +1,7 @@
 # code-challenge-starter-python-flask
 
 ## Starting application
-Start locally with `bin/start`
+Start flask app locally on port 5000 with `bin/start`
 
 ## Tests
 Run tests with `bin/test`, or `bin/coverage` to run with a coverage report
