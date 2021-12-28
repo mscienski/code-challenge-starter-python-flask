@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+TEST_PATH="$1"
+TEST_PATH="${TEST_PATH:-test/}"
+
+echo ""
+echo -e "\033[33m Running Tests"
+echo -e "\033[0m"
+
+PYTHONPATH="." TZ=UTC poetry run py.test "$TEST_PATH"

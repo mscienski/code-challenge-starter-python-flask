@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "code-challenge-starter-python-flask"
+version = "0.1.0"
+description = "Basic starter project for code challenges in python/flask"
+authors = ["Michal Scienski <mscienski@nav.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.2"
+alembic = "^1.7.5"
+SQLAlchemy = "^1.4.29"
+Flask-SQLAlchemy = "^2.5.1"
+psycopg2-binary = "^2.9.2"
+gunicorn = "^20.1.0"
+Flask-Cors = "^3.0.10"
+
+[tool.poetry.dev-dependencies]
+approvaltests = "^3.3.2"
+mypy = "^0.930"
+pylint = "^2.12.2"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+pytest-vcr = "^1.0.2"
+typed-ast = "^1.5.1"
+typing-extensions = "^4.0.1"
+unify = "^0.5"
+autoflake = "^1.4"
+vcrpy = "^4.1.1"
+yapf = "^0.32.0"
+safety = "^1.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

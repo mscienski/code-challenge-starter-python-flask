@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+$PWD/bin/safety && $PWD/bin/format && $PWD/bin/lint && $PWD/bin/typing && $PWD/bin/coverage
